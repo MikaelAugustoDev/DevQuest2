@@ -1,0 +1,103 @@
+@media (max-width: 1024px) {
+
+    .texts p {
+        margin-left: -100px;
+    }
+    
+    .form form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    html, body {
+        width: 740px;
+}
+
+    .texts {
+        padding: 20px;
+        height: 400px;
+    }
+
+    .texts h1 {
+        text-align: center;
+    }
+
+    .texts p {
+        text-align: center;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .form {
+        width: 300px;
+        height: 400px;
+    }
+
+    .form form {
+        width: 100%;
+    }
+
+}
+    
+
+@media (max-width: 425px) {
+
+
+    body {
+        flex-direction: column;
+        gap: 50px;
+        height: 800px;
+        background-size: 400px 1000px;
+    }
+
+    .texts {
+        width: 300px;   
+        height: 200px;
+        margin-top: 80px;
+    }
+
+    .texts h1 {
+        width: 450px;
+        text-align: center;
+    }
+
+    .texts p {
+        width: 450px;
+        text-align: center;
+        margin-left: 60px;
+    }
+
+    .form {
+        width: 450px;
+        height: 950px;
+    }
+    
+    .form form {
+        width: 100%;
+        height: 600px;
+        gap: 20px;
+    }
+
+    .form button {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    
+    body {
+        background-size: 375px 1200px;
+    }
+
+    .texts {
+        margin-top: 300px;
+    }
+
+    .form form {
+        width: 800px;
+        height: 700px;
+    }
+}
+
